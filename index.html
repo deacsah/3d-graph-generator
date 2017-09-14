@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	
+		<!-- AUTHOR: Michael Deacon @ opperbazen.nl -->
+		<!-- VERSION: 1.2 -->
+		<!-- COPYRIGHT: All Rights Reserved. This code may NOT be used or modified by other parties without consent of the author. -->
+	
+		<meta charset="utf-8">
+		<title>Model van abell maken</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<link rel="stylesheet" media="screen" type="text/css" href="js/picker/css/colorpicker.css" />
+		<link rel="stylesheet" media="screen" type="text/css" href="css/styleAbell.css" />
+		<script type="text/javascript" src="js/picker/js/colorpicker.js"></script>
+
+		<!--[if lt IE 9]>
+		<script src="excanvas.js"></script>
+		<![endif]-->
+	
+	</head> 
+	<body>
+		<head>
+			<h1>Model van Abell genereren</h1>
+		</head>
+		<section>
+			<p class="asdf"></p>
+			<canvas id="c" width="1050" height="800"></canvas> <br/>
+			<div class="inputz">
+				<div class="left">	
+					<fieldset>
+						<legend>Grootte van het blok:</legend>
+						<label for="inx">x</label><input type="text" class="inx" id="inx" value="1" /><br/> 
+						<label for="iny">y</label><input type="text" class="iny" id="iny" value="1" /><br/> 
+						<label for="inz">z</label><input type="text" class="inz" id="inz" value="1" /><br/>
+						<label class="agrid">Grid?</label><input type="checkbox" class="grid" value="1" checked />
+					</fieldset>
+				</div>
+				<div class="right">
+					<fieldset>
+						<legend>Aantal labels:</legend>
+						<label for="xfields">x</label><input type="text" class="fields" id="xfields" value="4" /><br/> 
+						<label for="yfields">y</label><input type="text" class="fields" id="yfields" value="4" /><br/> 
+						<label for="zfields">z</label><input type="text" class="fields" id="zfields" value="4" /><br/>
+						<button type="submit" class="labelz">VOEG LABELS TOE</button><br/>	
+					</fieldset>
+				</div>		
+				<div class="clear"></div>
+				<fieldset>
+					<legend>Labels:</legend>
+					<div class="xlabel">
+						<label for="x1">x1</label><input type="text" class="x1" id="x1" value="x1" /><br/> 
+						<label for="x2">x2</label><input type="text" class="x2" id="x2" value="x2" /><br/> 
+						<label for="x3">x3</label><input type="text" class="x3" id="x3" value="x3" /><br/>  
+						<label for="x4">x4</label><input type="text" class="x4" id="x4" value="x4" /><br/> 
+					</div>
+					<div class="ylabel">
+						<label for="y1">y1</label><input type="text" class="y1" id="y1" value="y1" /> <br/>
+						<label for="y2">y2</label><input type="text" class="y2" id="y2" value="y2" /> <br/>
+						<label for="y3">y3</label><input type="text" class="y3" id="y3" value="y3" /> <br/>
+						<label for="y4">y4</label><input type="text" class="y4" id="y4" value="y4" /> <br/>
+					</div> 
+					<div class="zlabel">
+						<label for="z1">z1</label><input type="text" class="z1" id="z1" value="z1" /><br/>  
+						<label for="z2">z2</label><input type="text" class="z2" id="z2" value="z2" /><br/>  
+						<label for="z3">z3</label><input type="text" class="z3" id="z3" value="z3" /><br/>  
+						<label for="z4">z4</label><input type="text" class="z4" id="z4" value="z4" /><br/>  
+					</div>
+					<div class="clear"></div>
+				</fieldset>
+				<fieldset class="colors">
+					<legend>Kleuren:</legend>
+					<div class="faces">
+						<label>zijvlak </label><input type="text" class="color"  id="side" value="" /><br/>
+						<label>bovenvlak </label><input type="text" class="color" id="top" value="" /><br/>  
+						<label>voorvlak </label><input type="text" class="color"  id="front" value="" /><br/> 
+					</div>
+					<div class="clabel">
+						<label>x labels </label><input type="text" class="color" id="xlabel" value="" /><br/>  
+						<label>y labels </label><input type="text" class="color"  id="ylabel" value="" /><br/>
+						<label>z labels </label><input type="text" class="color"  id="zlabel" value="" /><br/>
+					</div>
+				</fieldset>
+				<button type="submit" class="button">BAKKEN</button> <button type="submit" class="makeimage">MAAK EEN PLAATJE</button><br/>
+			</div>
+
+			<div class="clear"></div>
+			<script type="text/javascript" src="js/color.js"></script>
+			<script type="text/javascript" src="js/js.js"></script>
+		</section>
+		<footer>Door Opperbazen</footer>  
+	</body>
+</html>

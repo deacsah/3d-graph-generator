@@ -1,0 +1,35 @@
+h1 {margin: 10px 0 0 30px; }
+p.asdf {margin-left: 30px;}
+.clear {clear: both;}
+canvas {border: 0px dotted #ccc;float: left;} 
+.inputz fieldset {width: 455px;}
+.inputz {width: 550px;float: left;margin-left: 10px;}
+.inputz .left {width: 250px;float: left;height: 175px;margin-bottom: 10px;}
+.inputz .right {width: 250px;float: left;height: 175px;margin-bottom: 10px;} 
+.inputz .left fieldset {height: 145px;width: 195px;}
+.inputz .right fieldset {height: 145px;width: 195px;} 
+.inputz p {margin: 20px 20px 7px 20px;}
+input {display: inline-block;margin: 5px 0 0 0;}
+label {margin:0 10px 20px 10px;}
+button {margin: 15px 27px;}
+button.makeimage {margin: 0 50px;}
+button.button {margin: 30px 200px;}
+legend {margin-bottom: 5px;}
+.xlabel {width: 33%;float: left;margin-bottom: 10px}
+.ylabel {width: 33%;float: left;margin-bottom: 10px}
+.zlabel {width: 33%;float: left;margin-bottom: 10px}
+.xlabel input {width: 100px;}
+.ylabel input {width: 100px;}
+.zlabel input {width: 100px;}
+.left input {width: 145px;}
+.left label.agrid {margin-left: 5px;}
+.left input.grid {width: 30px;margin: 20px 10px 0 0px;} 
+.right input {width: 145px;} 
+.right button.labelz {width:150px; margin-bottom: 0;} 
+footer {text-align: center;margin-top: 20px;}
+fieldset.colors {margin-top: 20px;padding-bottom: 20px;}
+fieldset.colors label {width: 100px;display: inline-block;margin-bottom: 5px;}
+.faces {float: left;width: 50%}
+.clabel {float: left;width: 50%}
+.faces input, .clabel input {width:115px !important}
+.faces label, .clabel label {width:30% !important; margin-bottom: 3px !important;} 
