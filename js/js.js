@@ -3,8 +3,7 @@
 * This code may NOT be used or modified by other parties without consent of the author.
 * 
 * @version    1.2
-* @author     Michael Deacon @ opperbazen.nl
-* @copyright  Copyright (c) 2015, Michael Deacon	
+* @copyright  Copyright (c) 2015	
 * 
 */
 
