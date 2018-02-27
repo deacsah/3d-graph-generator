@@ -1,7 +1,4 @@
 /**
-* 
-* This code may NOT be used or modified by other parties without consent of the author.
-* 
 * @version    1.2
 * @copyright  Copyright (c) 2015	
 * 
